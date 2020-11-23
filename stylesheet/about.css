@@ -1,0 +1,19 @@
+.table th, td{
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.page-p img{
+  float: right;
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  width: 50%;
+  float: left;
+}
